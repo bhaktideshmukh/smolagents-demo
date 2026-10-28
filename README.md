@@ -18,6 +18,7 @@ smolagents-demo/
 ├── tools.py            # Custom tools
 ├── requirements.txt    # Dependencies
 ├── .env.example        # Template for environment variables
+├── screenshots/        # Demo execution screenshots
 └── README.md
 ```
 
@@ -65,6 +66,14 @@ Then enter a task, for example:
 Search for what the smolagents library is, summarize it in one sentence,
 then tell me how many words your summary has.
 ```
+
+## Screenshots
+
+Example execution of the agent performing a search task:
+
+![Agent Run Step 1](screenshots/Screenshot%202026-10-28%20124741.png)
+
+![Agent Run Step 2](screenshots/Screenshot%202026-10-28%20124803.png)
 
 ## Using a different model
 

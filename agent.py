@@ -6,7 +6,7 @@ from tools import get_word_count
 load_dotenv()  # loads HF_TOKEN from .env
 
 model = LiteLLMModel(
-    model_id="gemini/gemini-2.5-flash",  # check AI Studio for the current model name
+    model_id="gemini/gemini-2.5-flash",
     api_key=os.getenv("GEMINI_API_KEY"),
 )
 
